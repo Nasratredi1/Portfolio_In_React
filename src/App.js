@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Subscribe to </p>
+        <p>Welcome to </p>
         <h1>Code With Redi Home Page</h1>
       </section>
     </>
