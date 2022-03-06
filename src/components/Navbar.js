@@ -17,8 +17,8 @@ const Navbar = () => {
         {/* 1st logo part  */}
         <div className="logo">
           <h2>
-            <span>T</span>hapa
-            <span>T</span>echnical
+            <span>C</span>ode
+            <span>With</span>Redi
           </h2>
         </div>
 
@@ -26,7 +26,8 @@ const Navbar = () => {
         <div
           className={
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
-          }>
+          }
+        >
           <ul>
             <li>
               <NavLink to="/">Home</NavLink>
@@ -47,23 +48,23 @@ const Navbar = () => {
         <div className="social-media">
           <ul className="social-media-desktop">
             <li>
-              <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
+              <a href="https://www.facebook.com/CodingWithRedi" target="Redi">
                 <FaFacebookSquare className="facebook" />
               </a>
             </li>
             <li>
               <a
-                href="https://www.instagram.com/thapatechnical/"
-                target="_thapa">
+                href="https://www.instagram.com/coding_with_redi/ "
+                target="Redi"
+              >
                 <FaInstagramSquare className="instagram" />
               </a>
             </li>
             <li>
               <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                target="_thapa">
+                href="https://www.youtube.com/c/ComputerScienceSoftwareEngineering/playlists"
+                target="Redi"
+              >
                 <FaYoutubeSquare className="youtube" />
               </a>
             </li>
